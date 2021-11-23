@@ -17,10 +17,6 @@ class CsUserMapperTest {
     CsUserMapper csUserMapper;
 
     @Test
-<<<<<<< HEAD
-=======
-
->>>>>>> origin/master
     void getArticles() {
         List<CsUser> articles = csUserMapper.getArticles();
         System.out.println("=============================");
@@ -29,13 +25,12 @@ class CsUserMapperTest {
         System.out.println("=============================");
 
     }
-<<<<<<< HEAD
+
 
     @Test
     void insert() {
 
     }
 
-=======
->>>>>>> origin/master
+
 }
